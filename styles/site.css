@@ -1,0 +1,47 @@
+nav.navigation {
+	padding-top: 1.5rem;
+	padding-bottom: 1.5rem;
+	background-color: white;
+	height: 54px;
+}
+
+div.container {
+	text-align: center;
+}
+
+.icon {
+	width: 48px;
+	height: auto;
+}
+
+div.body {
+	padding-top: 60px;
+}
+
+.button-clear {
+	color: rgba(96, 108, 118);
+}
+
+.bio-paragraph {
+	padding-top: 120px;
+}
+
+.navText {
+	vertical-align: bottom;
+}
+highlightGreen{
+	color: rgba(148, 209, 60);
+}
+
+highlightBlack{
+	color: rgba(39, 39, 39);
+}
+
+.quote {
+	float: left;
+}
+
+.nutritionLabel {
+	padding-top: 40px;
+	float: left;
+}
