@@ -41,7 +41,21 @@ highlightBlack{
 	float: left;
 }
 
-.nutritionLabel {
+div.nutritionLabel {
 	padding-top: 40px;
 	float: left;
+}
+table.nutritionLabel {
+	outline: 2px solid black;
+}
+h4.center{
+	text-align:center;
+}
+
+.float-left.pad {
+	padding-left: 10px;
+}
+
+.float-right.pad {
+	padding-right: 10px;
 }
