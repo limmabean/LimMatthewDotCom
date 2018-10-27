@@ -14,6 +14,12 @@
     >
     <link rel="stylesheet" href="./styles/milligram.min.css">
     <link rel="stylesheet" href="./styles/site.css">
+
+    <link rel="stylesheet" href="./styles/eyesFollow.css">
+
+
+    <script src="./scripts/jquery-3.3.1.js"></script>
+    <script src="./scripts/eyesFollow.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/4.7.1/pixi.min.js"></script>
   </head>
   <body>
@@ -57,129 +63,138 @@
             <h4> I am a <em><highlightBlack>software developer / filmmaker / designer</highlightBlack></em> who is currently working part-time at <b><highlightGreen> Autodesk</highlightGreen></b>.</h4>
           </div>
         </div> 
-        <div class="row nutritionLabel"> 
-          <!--<img alt="Nutrition of Limma Beans" src="./images/limmaBeansNutrition.png">--> 
-          <table class="nutritionLabel">
-            <thead>
-              <tr>
-                <th><h4 class="center"><b>Nutrition Facts</b></h4></th>
-              </tr>
-              <tr>
-                <td>
-                  <div class="float-left pad"> Servings per container </div>
-                  <div class="float-right pad"> 1/2 cup cooked limma </div>
-                </td>
-              </tr>
-              <tr>
-                <td class="divider">
-                  <div class="float-left pad"> Serving Size </div>
-                  <div class="float-right pad"> Beans (35g) </div>
-                </td>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td class="divider">
-                  <div class="float-left pad"> 
-                    Calories per serving
-                  </div>
-                  <div class="float-right pad">
-                    105
-                  </div>
-                </td>
-              </tr>
-              <tr>  
-                <td>
-                  <div class="float-right pad">
-                    <b>% Daily Value *</b>
-                  </div>
-                </td>
-              </tr>
-              <tr class="totalFats">
-                <td>
-                  <div class="float-left pad"> 
-                    <b>Total Fat</b> 0 g
-                  </div>
-                  <div class="float-right pad">
-                    <b>0%</b>
-                  </div>
-                </td>
-              </tr>
-              <tr class="subFats">
-                <td>
-                  <div class="float-left pad indent"> 
-                    Saturated Fat 0 g
-                  </div>
-                  <div class="float-right pad">
-                    <b>0%</b>
-                  </div>
-                </td>
-              </tr>
-              <tr class="subFats">
-                <td>
-                  <div class="float-left pad indent"> 
-                  <em>Trans</em> Fat 0 g
-                  </div>
-                  <div class="float-right pad">
-                  </div>
-                </td>
-              </tr>
-              <tr class="nutritionHeader">
-                <td>
-                  <div class="float-left pad"> 
-                    <b>Cholestorol</b> 0 g
-                  </div>
-                  <div class="float-right pad">
-                    <b>0%</b>
-                  </div>
-                </td>
-              </tr>
-              <tr class="nutritionHeader">
-                <td>
-                  <div class="float-left pad"> 
-                    <b>Sodium</b> 14 mg
-                  </div>
-                  <div class="float-right pad">
-                    <b>1%</b>
-                  </div>
-                </td>
-              </tr>
-              <tr class="nutritionHeader">
-                <td>
-                  <div class="float-left pad"> 
-                    <b>Total Carbohydrates</b> 20 g
-                  </div>
-                  <div class="float-right pad">
-                    <b>7%</b>
-                  </div>
-                </td>
-              </tr>
-              <tr class="subNutrient">
-                <td>
-                  <div class="float-left pad indent"> 
-                    Dietary Fiber 5 g
-                  </div>
-                  <div class="float-right pad">
-                    <b>18%</b>
-                  </div>
-                </td>
-              </tr>
-              <tr class="subNurtient">
-                <td>
-                  <div class="float-left pad indent"> 
-                  Total Sugars 1 g
-                  </div>
-                  <div class="float-right pad">
-                  </div>
-                </td>
-              </tr>
-            </tbody>
-          </table>
+        <div class="center">
+          <div class="row nutritionLabel"> 
+            <!--<img alt="Nutrition of Limma Beans" src="./images/limmaBeansNutrition.png">--> 
+            <table class="nutritionLabel">
+              <thead>
+                <tr>
+                  <th><h4 class="center"><b>Nutrition Facts</b></h4></th>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="float-left pad"> Servings per container </div>
+                    <div class="float-right pad"> 1/2 cup cooked limma </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="divider">
+                    <div class="float-left pad"> Serving Size </div>
+                    <div class="float-right pad"> Beans (35g) </div>
+                  </td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="divider">
+                    <div class="float-left pad"> 
+                      Calories per serving
+                    </div>
+                    <div class="float-right pad">
+                      105
+                    </div>
+                  </td>
+                </tr>
+                <tr>  
+                  <td>
+                    <div class="float-right pad">
+                      <b>% Daily Value *</b>
+                    </div>
+                  </td>
+                </tr>
+                <tr class="totalFats">
+                  <td>
+                    <div class="float-left pad"> 
+                      <b>Total Fat</b> 0 g
+                    </div>
+                    <div class="float-right pad">
+                      <b>0%</b>
+                    </div>
+                  </td>
+                </tr>
+                <tr class="subFats">
+                  <td>
+                    <div class="float-left pad indent"> 
+                      Saturated Fat 0 g
+                    </div>
+                    <div class="float-right pad">
+                      <b>0%</b>
+                    </div>
+                  </td>
+                </tr>
+                <tr class="subFats">
+                  <td>
+                    <div class="float-left pad indent"> 
+                    <em>Trans</em> Fat 0 g
+                    </div>
+                    <div class="float-right pad">
+                    </div>
+                  </td>
+                </tr>
+                <tr class="nutritionHeader">
+                  <td>
+                    <div class="float-left pad"> 
+                      <b>Cholestorol</b> 0 g
+                    </div>
+                    <div class="float-right pad">
+                      <b>0%</b>
+                    </div>
+                  </td>
+                </tr>
+                <tr class="nutritionHeader">
+                  <td>
+                    <div class="float-left pad"> 
+                      <b>Sodium</b> 14 mg
+                    </div>
+                    <div class="float-right pad">
+                      <b>1%</b>
+                    </div>
+                  </td>
+                </tr>
+                <tr class="nutritionHeader">
+                  <td>
+                    <div class="float-left pad"> 
+                      <b>Total Carbohydrates</b> 20 g
+                    </div>
+                    <div class="float-right pad">
+                      <b>7%</b>
+                    </div>
+                  </td>
+                </tr>
+                <tr class="subNutrient">
+                  <td>
+                    <div class="float-left pad indent"> 
+                      Dietary Fiber 5 g
+                    </div>
+                    <div class="float-right pad">
+                      <b>18%</b>
+                    </div>
+                  </td>
+                </tr>
+                <tr class="subNurtient">
+                  <td>
+                    <div class="float-left pad indent"> 
+                    Total Sugars 1 g
+                    </div>
+                    <div class="float-right pad">
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
         </div>
       </div>
-      
-
-      </div>
     </main>
+    <footer>
+      <img class="footer" src="./images/footerNoEyes.png">
+      <section class="move-area">
+        <div class='.container'>
+          <div class='eye'></div>
+          <div class='eye'></div>
+        </div>
+      </section>
+    </footer>
   </body>
 </html>
