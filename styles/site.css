@@ -24,7 +24,7 @@ div.body {
 }
 
 .bio-paragraph {
-	padding-top: 120px;
+	padding-top: 32vh;
 }
 
 .navText {
@@ -44,11 +44,12 @@ highlightBlack{
 
 div.nutritionLabel {
 	padding: 40px;
-	max-width: 600px;
+	padding-top: 800px;
+	max-width: 500px;
 	display: inline-block;
 }
 table.nutritionLabel {
-	outline: 2px solid black;
+	outline: 1px solid black;
 }
 .center{
 	text-align:center;

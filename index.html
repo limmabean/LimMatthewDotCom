@@ -1,39 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Metadata -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="author" content="Matthew Lim">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="Matthew Lim's personal website and portfolio.">
     <link rel="shortcut icon" href="./images/favicon.png">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
-
     <title>Matthew Lim | A human legume.</title>
+
+    <!-- Fonts -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic"
     >
-    <link rel="stylesheet" href="./styles/milligram.min.css">
-    <link rel="stylesheet" href="./styles/site.css">
+    <link rel="syltesheet" href="https://fonts.googleapis.com/css/family=Mali">
+    <link rel="syltesheet" href="https://fonts.googleapis.com/css/family=Playfair+Display">
 
-    <link rel="stylesheet" href="./styles/eyesFollow.css">
+    <!--Website CSS Framework-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
+    <link rel="stylesheet" href="./styles/milligram.min.css"  type="text/css">
+    <link rel="stylesheet" href="./styles/site.css"           type="text/css">
 
-
-    <script src="./scripts/jquery-3.3.1.js"></script>
-    <script src="./scripts/eyesFollow.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/4.7.1/pixi.min.js"></script>
+    <!--Custom Styling-->
+    <link rel="stylesheet" href="./styles/eyesFollow.css"     type="text/css">
   </head>
-  <body>
+  <body id="move-area">
     <main class="wrapper">
       <nav class="navigation">
         <div class="container">
           <div class="row">
             <div class="column">
-              <a class="navigation-video button-clear navText" href="./pages/videoPortfolio.html">
+              <a class="navigation-video button-clear navText" href="https://www.youtube.com/watch?v=9-CsmOtciTA&list=PL8C0vBBolbXEsU61g07w9NsHZ-2lq4UCD">
                 Videos
               </a>
             </div>
             <div class="column">
-              <a class="navigation-code button-clear navText" href="./pages/codePortfolio.html">
+              <a class="navigation-code button-clear navText" href="https://github.com/limmabean">
                 Code
               </a>
             </div>
@@ -64,8 +66,10 @@
           </div>
         </div> 
         <div class="center">
+
           <div class="row nutritionLabel"> 
             <!--<img alt="Nutrition of Limma Beans" src="./images/limmaBeansNutrition.png">--> 
+            <h4> What am I made of? </h4>
             <table class="nutritionLabel">
               <thead>
                 <tr>
@@ -74,13 +78,13 @@
                 <tr>
                   <td>
                     <div class="float-left pad"> Servings per container </div>
-                    <div class="float-right pad"> 1/2 cup cooked limma </div>
+                    <div class="float-right pad"> 1 Person </div>
                   </td>
                 </tr>
                 <tr>
                   <td class="divider">
                     <div class="float-left pad"> Serving Size </div>
-                    <div class="float-right pad"> Beans (35g) </div>
+                    <div class="float-right pad"> Human Beans (68kg) </div>
                   </td>
                 </tr>
               </thead>
@@ -88,34 +92,34 @@
                 <tr>
                   <td class="divider">
                     <div class="float-left pad"> 
-                      Calories per serving
+                      Brains per serving
                     </div>
                     <div class="float-right pad">
-                      105
+                      1
                     </div>
                   </td>
                 </tr>
                 <tr>  
                   <td>
                     <div class="float-right pad">
-                      <b>% Daily Value *</b>
+                      <b>% Values *</b>
                     </div>
                   </td>
                 </tr>
                 <tr class="totalFats">
                   <td>
                     <div class="float-left pad"> 
-                      <b>Total Fat</b> 0 g
+                      <b>Total Values</b> 1 (g)ood person
                     </div>
                     <div class="float-right pad">
-                      <b>0%</b>
+                      <b>110%</b>
                     </div>
                   </td>
                 </tr>
                 <tr class="subFats">
                   <td>
                     <div class="float-left pad indent"> 
-                      Saturated Fat 0 g
+                      Empathy 30 g
                     </div>
                     <div class="float-right pad">
                       <b>0%</b>
@@ -189,12 +193,18 @@
     </main>
     <footer>
       <img class="footer" src="./images/footerNoEyes.png">
-      <section class="move-area">
-        <div class='.container'>
-          <div class='eye'></div>
-          <div class='eye'></div>
-        </div>
+      <div class='.container'>
+        <div class='eye'></div>
+        <div class='eye'></div>
+      </div>
       </section>
     </footer>
+
+
+
+    <!-- Scripts -->
+    <script src="./scripts/jquery-3.3.1.js"     type="text/javascript"></script>
+    <script src="./scripts/eyesFollow.js"       type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/4.7.1/pixi.min.js"></script>
   </body>
 </html>

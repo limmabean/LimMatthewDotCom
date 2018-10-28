@@ -1,6 +1,10 @@
 //This is a pen based off of Codewoofy's eyes follow mouse. It is just cleaned up, face removed, and then made to be a little more cartoony. https://codepen.io/Codewoofy/pen/VeBJEP
 
-$(".move-area").mousemove(function(event) {
+console.log("hello");
+var z = document.getElementById("move-area");
+console.log($("#move-area"));
+
+$("#move-area").mousemove(function(event) {
   var eye = $(".eye");
   var x = (eye.offset().left) + (eye.width() / 2);
   var y = (eye.offset().top) + (eye.height() / 2);
