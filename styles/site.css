@@ -24,7 +24,7 @@ div.body {
 }
 
 .bio-paragraph {
-	padding-top: 32vh;
+	padding-top: 12vh;
 }
 
 .navText {
@@ -42,6 +42,8 @@ highlightBlack{
 	float: left;
 }
 
+
+/* Nutrition Label */
 div.nutritionLabel {
 	padding: 40px;
 	padding-top: 800px;

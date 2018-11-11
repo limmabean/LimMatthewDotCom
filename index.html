@@ -23,6 +23,7 @@
 
     <!--Custom Styling-->
     <link rel="stylesheet" href="./styles/eyesFollow.css"     type="text/css">
+    <link rel="stylesheet" href="./styles/slideShow.css"      type="text/css">
   </head>
   <body id="move-area">
     <main class="wrapper">
@@ -61,14 +62,39 @@
       <div class="body container">
         <div class="row bio-paragraph">
           <div class="column">
-            <h1> Hello, my name is <b><highlightBlack>Matthew Lim.</highlightBlack></b> </h1>
-            <h4> I am a <em><highlightBlack>software developer / filmmaker / designer</highlightBlack></em> who is currently working part-time at <b><highlightGreen> Autodesk</highlightGreen></b>.</h4>
+            <div class="introduction">
+              
+              <div class="slideshow-container">
+                <div class="mySlides fade">
+                  <img class="circleBioPhoto" alt="That's me!" src="./images/Me.png">
+                </div>
+                <div class="mySlides fade">
+                  <img class="circleBioPhoto" alt="That's me!" src="./images/Me2.png">
+                </div>
+                <div class="mySlides fade">
+                  <img class="circleBioPhoto" alt="That's me!" src="./images/Me4.png">
+                </div>
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+              </div>
+              <br>
+
+              <!-- The dots/circles -->
+              <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span> 
+                <span class="dot" onclick="currentSlide(2)"></span> 
+                <span class="dot" onclick="currentSlide(3)"></span> 
+              </div>
+              <br>
+              <h1> Hello, my name is <b><highlightBlack>Matthew Lim.</highlightBlack></b> </h1>
+              <h4> I am a <em><highlightBlack>software developer / filmmaker / designer</highlightBlack></em> who is currently working part-time at <b><highlightGreen> Autodesk</highlightGreen></b>.</h4>
+            </div>
           </div>
         </div> 
         <div class="center">
-
+          <!--
           <div class="row nutritionLabel"> 
-            <!--<img alt="Nutrition of Limma Beans" src="./images/limmaBeansNutrition.png">--> 
             <h4> What am I made of? </h4>
             <table class="nutritionLabel">
               <thead>
@@ -188,6 +214,7 @@
             </table>
           </div>
         </div>
+        -->
         </div>
       </div>
     </main>
@@ -205,6 +232,7 @@
     <!-- Scripts -->
     <script src="./scripts/jquery-3.3.1.js"     type="text/javascript"></script>
     <script src="./scripts/eyesFollow.js"       type="text/javascript"></script>
+    <script src="./scripts/slideShow.js"        type="text/javascript"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/4.7.1/pixi.min.js"></script>
   </body>
 </html>
