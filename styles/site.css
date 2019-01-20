@@ -1,3 +1,4 @@
+
 nav.navigation {
 	padding-top: 1.5rem;
 	padding-bottom: 1.5rem;
@@ -23,7 +24,7 @@ div.body {
 }
 
 .bio-paragraph {
-	padding-top: 120px;
+	padding-top: 12vh;
 }
 
 .navText {
@@ -41,14 +42,18 @@ highlightBlack{
 	float: left;
 }
 
+
+/* Nutrition Label */
 div.nutritionLabel {
-	padding-top: 40px;
-	float: left;
+	padding: 40px;
+	padding-top: 800px;
+	max-width: 500px;
+	display: inline-block;
 }
 table.nutritionLabel {
-	outline: 2px solid black;
+	outline: 1px solid black;
 }
-h4.center{
+.center{
 	text-align:center;
 }
 
@@ -58,4 +63,12 @@ h4.center{
 
 .float-right.pad {
 	padding-right: 10px;
+}
+
+.float-left.indent {
+	padding-left: 40px;
+}
+
+.float-right.indent {
+	padding-right: 40px;
 }
