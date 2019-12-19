@@ -13,6 +13,7 @@ import { createMuiTheme } from '@material-ui/core/styles';
 import {MuiThemeProvider} from "@material-ui/core/styles";
 
 import Header from "./header"
+import Footer from "./footer"
 import "./layout.css"
 
 const Layout = ({ children }) => {
@@ -58,6 +59,9 @@ const Layout = ({ children }) => {
           {` `}
           <a href="https://www.gatsbyjs.org">Gatsby</a>
         </footer>
+        <Footer>
+
+        </Footer>
       </div>
     </MuiThemeProvider>
   )

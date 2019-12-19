@@ -9,6 +9,6 @@ const SocialMediaIcon = ({ children, href }) => (
       </a>
     </div>
   </IconContext.Provider>
-  )
+)
 
 export default SocialMediaIcon

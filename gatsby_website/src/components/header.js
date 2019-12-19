@@ -12,25 +12,35 @@ const useStyles = makeStyles(theme => ({
   root: {
     flexGrow: 1,
     paddingBottom: 64
-  }
+  },
+  linksMenu: {
+    float: 'right',
+    listStyleType: 'none',
+    marginRight: 20,
+  },
+  links:{
+    fontSize: 20,
+    float: 'left',
+    padding: 10,
+  },
 }));
 
 export default function Header() {
   const classes = useStyles();
   return (
     <div className={classes.root}>
-          <CssBaseline/>
-            <h1 style={{ margin: 0 }}>
-              <Link
-                to="/"
-                style={{
-                  color: '#05386B',
-                  textDecoration: `none`,
-                }}
-              >
-                Welcome
-              </Link>
-            </h1>
+      <CssBaseline/>
+      <ul className = {classes.linksMenu}>
+        <li className={classes.links}>
+          resume
+        </li>
+        <li className={classes.links}>
+          about me
+        </li>
+        <li className={classes.links}>
+          projects
+        </li>
+      </ul>
     </div>
   );
 }
