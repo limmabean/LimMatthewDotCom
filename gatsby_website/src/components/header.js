@@ -3,10 +3,12 @@ import React from "react";
 import PropTypes from "prop-types";
 
 import { makeStyles } from '@material-ui/core/styles';
+import Typography from '@material-ui/core/Typography';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
-import CssBaseline from '@material-ui/core/CssBaseline';
-import Container from '@material-ui/core/Container';
+import Breadcrumbs from '@material-ui/core/Breadcrumbs';
+import Grid from '@material-ui/core/Grid';
+import { Button, ButtonGroup } from '@material-ui/core/';
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -14,33 +16,78 @@ const useStyles = makeStyles(theme => ({
     paddingBottom: 64
   },
   linksMenu: {
-    float: 'right',
-    listStyleType: 'none',
-    marginRight: 20,
+    justifyContent: 'flex-end',
   },
-  links:{
-    fontSize: 20,
-    float: 'left',
+  linksListItem: {
     padding: 10,
   },
+  link: {
+    fontFamily: "Roboto",
+    fontSize: 14,
+    color: "rgba(39, 39, 39)",
+    textDecoration: 'none',
+  },
+  beanIcon: {
+    width: 40,
+    height: "auto",
+  }
 }));
 
 export default function Header() {
   const classes = useStyles();
   return (
     <div className={classes.root}>
-      <CssBaseline/>
-      <ul className = {classes.linksMenu}>
-        <li className={classes.links}>
-          resume
-        </li>
-        <li className={classes.links}>
-          about me
-        </li>
-        <li className={classes.links}>
-          projects
-        </li>
-      </ul>
+      <Grid container spacing={0}>
+        <Grid item xs={3}>
+          <Toolbar>
+            <Link to="/" className={classes.beanIcon}>
+              <img src="/icons/icon-48x48.png" alt="Home">
+              </img>
+            </Link>
+          </Toolbar>
+        </Grid>
+        <Grid item xs={9}>
+          <Toolbar className={classes.linksMenu}>
+            <ButtonGroup variant="text">
+              <Button>
+                <Typography variant="caption" className={classes.linksListItem}>
+                  <Link to="/aboutme/" className={classes.link}>
+                    About Me
+                  </Link>
+                </Typography>
+              </Button>
+              <Button>
+                <Typography variant="caption" className={classes.linksListItem}>
+                  <Link to="/resume/" className={classes.link}>
+                    Resume
+                  </Link>
+                </Typography>
+              </Button>
+              <Button>
+                <Typography variant="caption" className={classes.linksListItem}>
+                  <Link to="/projects/" className={classes.link}>
+                    Projects
+                  </Link>
+                </Typography>
+              </Button>
+              <Button>
+                <Typography variant="caption" className={classes.linksListItem}>
+                  <Link to="/research/" className={classes.link}>
+                    Research
+                  </Link>
+                </Typography>
+              </Button>
+              <Button>
+                <Typography variant="caption" className={classes.linksListItem}>
+                  <Link to="/fun/" className={classes.link}>
+                    Fun
+                  </Link>
+                </Typography>
+              </Button>
+            </ButtonGroup>
+          </Toolbar>
+        </Grid>
+      </Grid> 
     </div>
   );
 }
