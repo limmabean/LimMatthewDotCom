@@ -57,6 +57,8 @@ typings/
 # gatsby files
 .cache/
 public/
+public/index.html
+public/manifest.webmanifest
 !icons/
 
 # Mac files
