@@ -7,11 +7,13 @@ const useStyles = makeStyles(theme => ({
   root: {
     flexGrow: 1,
     position: "fixed",
-    marginTop: "120px"
+    marginTop: "120px",
+    height: "100%",
   },
   link: {
     color: "rgba(39, 39, 39)",
     textDecoration: 'none',
+    fontSize: "large",
   }
 }));
 

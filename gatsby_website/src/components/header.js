@@ -23,7 +23,7 @@ const useStyles = makeStyles(theme => ({
   },
   link: {
     fontFamily: "Roboto",
-    fontSize: 14,
+    fontSize: "medium",
     color: "rgba(39, 39, 39)",
     textDecoration: 'none',
   },

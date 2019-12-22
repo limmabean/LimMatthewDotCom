@@ -10,8 +10,6 @@ import Box from '@material-ui/core/Box';
 import { Container, Button, Grid } from '@material-ui/core/';
 import { makeStyles } from '@material-ui/core/styles';
 
-
-
 const useStyles = makeStyles(theme => ({
   main: {
     margin: `0 0`,
