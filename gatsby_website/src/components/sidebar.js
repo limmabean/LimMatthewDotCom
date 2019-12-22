@@ -13,7 +13,7 @@ const useStyles = makeStyles(theme => ({
   link: {
     color: "rgba(39, 39, 39)",
     textDecoration: 'none',
-    fontSize: "large",
+    fontSize: "medium",
   }
 }));
 
