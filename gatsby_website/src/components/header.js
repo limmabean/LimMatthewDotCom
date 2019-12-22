@@ -3,11 +3,7 @@ import React from "react";
 import PropTypes from "prop-types";
 
 import { makeStyles } from '@material-ui/core/styles';
-import Typography from '@material-ui/core/Typography';
-import AppBar from '@material-ui/core/AppBar';
-import Toolbar from '@material-ui/core/Toolbar';
-import Breadcrumbs from '@material-ui/core/Breadcrumbs';
-import Grid from '@material-ui/core/Grid';
+import { Typography, Toolbar, Grid } from '@material-ui/core/';
 import { Button, ButtonGroup } from '@material-ui/core/';
 
 const useStyles = makeStyles(theme => ({
@@ -20,11 +16,12 @@ const useStyles = makeStyles(theme => ({
   },
   linksListItem: {
     padding: 10,
-  },
-  link: {
     fontFamily: "Roboto",
     fontSize: "small",
     color: "rgba(39, 39, 39)",
+
+  },
+  link: {
     textDecoration: 'none',
   },
   beanIcon: {
@@ -49,41 +46,41 @@ export default function Header() {
         <Grid item xs={9}>
           <Toolbar className={classes.linksMenu}>
             <ButtonGroup variant="text">
-              <Button>
-                <Typography variant="caption" className={classes.linksListItem}>
-                  <Link to="/aboutme/" className={classes.link}>
+              <Link to="/aboutMatthew/" className={classes.link}>
+                <Button>
+                  <Typography variant="caption" className={classes.linksListItem}>
                     About Me
-                  </Link>
-                </Typography>
-              </Button>
-              <Button>
-                <Typography variant="caption" className={classes.linksListItem}>
-                  <Link to="/resume/" className={classes.link}>
+                  </Typography>
+                </Button>
+              </Link>
+              <Link to="/resume/" className={classes.link}>
+                <Button>
+                  <Typography variant="caption" className={classes.linksListItem}>
                     Resume
-                  </Link>
-                </Typography>
-              </Button>
-              <Button>
-                <Typography variant="caption" className={classes.linksListItem}>
-                  <Link to="/projects/" className={classes.link}>
-                    Projects
-                  </Link>
-                </Typography>
-              </Button>
-              <Button>
-                <Typography variant="caption" className={classes.linksListItem}>
-                  <Link to="/research/" className={classes.link}>
-                    Research
-                  </Link>
-                </Typography>
-              </Button>
-              <Button>
-                <Typography variant="caption" className={classes.linksListItem}>
-                  <Link to="/fun/" className={classes.link}>
-                    Fun
-                  </Link>
-                </Typography>
-              </Button>
+                  </Typography>
+                </Button>
+              </Link>
+              <Link to="/projects/" className={classes.link}>
+                <Button>
+                  <Typography variant="caption" className={classes.linksListItem}>
+                      Projects
+                  </Typography>
+                </Button>
+              </Link>
+              <Link to="/research/" className={classes.link}>
+                <Button>
+                  <Typography variant="caption" className={classes.linksListItem}>
+                      Research
+                  </Typography>
+                </Button>
+              </Link>
+              <Link to="/fun/" className={classes.link}>
+                <Button>
+                  <Typography variant="caption" className={classes.linksListItem}>
+                      Fun
+                  </Typography>
+                </Button>
+              </Link>
             </ButtonGroup>
           </Toolbar>
         </Grid>

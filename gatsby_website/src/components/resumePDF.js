@@ -2,10 +2,6 @@ import React, { Component } from 'react';
 import { Document, Page } from 'react-pdf/dist/entry.webpack';
 import resumeFile from '../pdfs/Matthew_Lim_CS_Resume.pdf';
 import './resumePDF.css'
-const options = {
-  cMapUrl: 'cmaps/',
-  cMapPacked: true,
-};
 
 export default class ResumePDF extends Component {
   state = {
@@ -22,19 +18,16 @@ export default class ResumePDF extends Component {
       <Document
         file={resumeFile}
         onLoadSuccess={this.onDocumentLoadSuccess}
-        options={options}
+        loading="Loading Resume..."
+        error="Failed to load Resume PDF."
       >
-        {
-          Array.from(
-            new Array(numPages),
-            (el, index) => (
-              <Page
-                key={`page_${index + 1}`}
-                pageNumber={index + 1}
-              />
-            ),
-          )
-        }
+        <Page
+          renderMode="canvas"
+          key={`page_1`}
+          pageNumber={1}
+          error="Failed to load Resume PDF."
+          scale="1.5"
+        />
       </Document>
     );
   }

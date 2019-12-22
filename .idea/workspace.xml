@@ -2,17 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a73fc425-4552-40ab-afda-affcab367f09" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/gatsby_website/src/pages/aboutMatthew.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatsby_website/public/icons/icon-144x144.png" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby_website/public/icons/icon-144x144.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatsby_website/public/icons/icon-192x192.png" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby_website/public/icons/icon-192x192.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatsby_website/public/icons/icon-256x256.png" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby_website/public/icons/icon-256x256.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatsby_website/public/icons/icon-384x384.png" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby_website/public/icons/icon-384x384.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatsby_website/public/icons/icon-48x48.png" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby_website/public/icons/icon-48x48.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatsby_website/public/icons/icon-512x512.png" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby_website/public/icons/icon-512x512.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatsby_website/public/icons/icon-72x72.png" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby_website/public/icons/icon-72x72.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatsby_website/public/icons/icon-96x96.png" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby_website/public/icons/icon-96x96.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatsby_website/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby_website/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatsby_website/public/manifest.webmanifest" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby_website/public/manifest.webmanifest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby_website/public/page-data/dev-404-page/page-data.json" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby_website/public/page-data/dev-404-page/page-data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby_website/src/components/footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby_website/src/components/footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby_website/src/components/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby_website/src/components/header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby_website/src/components/resumePDF.css" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby_website/src/components/resumePDF.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby_website/src/components/resumePDF.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby_website/src/components/resumePDF.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby_website/src/pages/aboutme.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby_website/src/pages/resume.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby_website/src/pages/resume.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,19 +25,8 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>rebecca</find>
-      <find>404</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1526" />
-    <option name="width" value="1560" />
-    <option name="height" value="1812" />
   </component>
   <component name="ProjectId" id="1VIYcDxGeS6RK9KhYR1HVjJK9Ce" />
   <component name="ProjectViewState">
@@ -54,6 +41,12 @@
     <property name="add_unversioned_files" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/gatsby_website" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -101,7 +94,8 @@
       <workItem from="1576799477881" duration="278000" />
       <workItem from="1576940865275" duration="112000" />
       <workItem from="1576941176596" duration="691000" />
-      <workItem from="1576942162580" duration="655000" />
+      <workItem from="1576942162580" duration="14361000" />
+      <workItem from="1577044796174" duration="6756000" />
     </task>
     <servers />
   </component>
@@ -121,22 +115,22 @@
       <screen x="0" y="0" width="1537" height="900" />
     </state>
     <state x="550" y="198" key="FileChooserDialogImpl/0.0.1537.900@0.0.1537.900" timestamp="1576942804155" />
-    <state width="1366" height="219" key="GridCell.Tab.0.bottom" timestamp="1576942824858">
+    <state width="745" height="233" key="GridCell.Tab.0.bottom" timestamp="1577029527109">
       <screen x="0" y="0" width="1537" height="900" />
     </state>
-    <state width="1366" height="219" key="GridCell.Tab.0.bottom/0.0.1537.900@0.0.1537.900" timestamp="1576942824858" />
-    <state width="1366" height="219" key="GridCell.Tab.0.center" timestamp="1576942824858">
+    <state width="745" height="233" key="GridCell.Tab.0.bottom/0.0.1537.900@0.0.1537.900" timestamp="1577029527109" />
+    <state width="745" height="233" key="GridCell.Tab.0.center" timestamp="1577029527109">
       <screen x="0" y="0" width="1537" height="900" />
     </state>
-    <state width="1366" height="219" key="GridCell.Tab.0.center/0.0.1537.900@0.0.1537.900" timestamp="1576942824858" />
-    <state width="1366" height="219" key="GridCell.Tab.0.left" timestamp="1576942824858">
+    <state width="745" height="233" key="GridCell.Tab.0.center/0.0.1537.900@0.0.1537.900" timestamp="1577029527109" />
+    <state width="745" height="233" key="GridCell.Tab.0.left" timestamp="1577029527108">
       <screen x="0" y="0" width="1537" height="900" />
     </state>
-    <state width="1366" height="219" key="GridCell.Tab.0.left/0.0.1537.900@0.0.1537.900" timestamp="1576942824858" />
-    <state width="1366" height="219" key="GridCell.Tab.0.right" timestamp="1576942824858">
+    <state width="745" height="233" key="GridCell.Tab.0.left/0.0.1537.900@0.0.1537.900" timestamp="1577029527108" />
+    <state width="745" height="233" key="GridCell.Tab.0.right" timestamp="1577029527109">
       <screen x="0" y="0" width="1537" height="900" />
     </state>
-    <state width="1366" height="219" key="GridCell.Tab.0.right/0.0.1537.900@0.0.1537.900" timestamp="1576942824858" />
+    <state width="745" height="233" key="GridCell.Tab.0.right/0.0.1537.900@0.0.1537.900" timestamp="1577029527109" />
     <state x="271" y="94" key="SettingsEditor" timestamp="1576942290194">
       <screen x="0" y="0" width="1537" height="900" />
     </state>
