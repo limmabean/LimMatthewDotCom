@@ -52,7 +52,7 @@ const theme = createMuiTheme({
 });
 
 
-const Layout = ({ children }) => {
+const Layout = ({ children, pageTitle }) => {
   const classes = useStyles();
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
@@ -69,7 +69,10 @@ const Layout = ({ children }) => {
     <CssBaseline></CssBaseline>
       <Header/>
       <div className={classes.root}>
+        <Container maxWidth="lg">
+          <Typography variant="h3">{pageTitle}</Typography>
         {children}
+        </Container>
       </div>
       <footer>
         <Footer>

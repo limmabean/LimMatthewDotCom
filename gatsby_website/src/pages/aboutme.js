@@ -1,17 +1,27 @@
-import React from "react";
+import React from "react"
 
-import Layout from "../components/layout";
-import Image from "../components/image";
-import SEO from "../components/seo";
+import Layout from "../components/layout"
+import SEO from "../components/seo"
+import { Container, Typography, makeStyles } from '@material-ui/core/';
 
-export default function aboutMePage() {
+const useStyles = makeStyles(theme => ({
+  root: {
+    textAlign: 'left',
+  },
+}));
+
+export default function AboutMePage() {
+  const classes = useStyles();
   return (
-    <Layout>
-      <SEO title="About Me"/>
-        <div className="area">
-          <Image/>
-        </div>
+    <Layout pageTitle="About Me">
+      <SEO title="About Me" />
+      <div className={classes.root}>
+        <p> Or click {' '}
+          to download a copy:
+        </p>
+      </div>
+      <div>
+      </div>
     </Layout>
   )
 }
-

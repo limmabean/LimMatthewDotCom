@@ -46,7 +46,7 @@ export default function Header() {
         <Grid item xs={9}>
           <Toolbar className={classes.linksMenu}>
             <ButtonGroup variant="text">
-              <Link to="/aboutMatthew/" className={classes.link}>
+              <Link to="/aboutme/" className={classes.link}>
                 <Button>
                   <Typography variant="caption" className={classes.linksListItem}>
                     About Me

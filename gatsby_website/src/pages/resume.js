@@ -18,24 +18,22 @@ export default function ResumePage() {
   return (
     <Layout>
       <SEO title="Resume" />
-      <Container maxWidth="lg">
-        <div className={classes.centeredText}>
-            <Typography variant="h2">Check out my resume!</Typography>
-            <p> Or click {' '}
-              <DownloadLink label="here"
-                filename="../pdfs/Matthew_Lim_CS_Resume.pdf"
-                exportFile={() => "My cached data"}
-                tagName=""
-              >
-                Save to disk
-              </DownloadLink>
-              to download a copy:
-            </p>
-        </div>
-        <div>
-          <ResumePDF/>
-        </div>
-      </Container>
+      <div className={classes.centeredText}>
+          <Typography variant="h2">Check out my resume!</Typography>
+          <p> Or click {' '}
+            <DownloadLink label="here"
+              filename="../pdfs/Matthew_Lim_CS_Resume.pdf"
+              exportFile={() => "My cached data"}
+              tagName=""
+            >
+              Save to disk
+            </DownloadLink>
+            to download a copy:
+          </p>
+      </div>
+      <div>
+        <ResumePDF/>
+      </div>
     </Layout>
   )
 }
