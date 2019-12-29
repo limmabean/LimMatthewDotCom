@@ -56,10 +56,15 @@ typings/
 
 # gatsby files
 .cache/
-public/
+
+# ignore everything in public except the static directory
+public/*
 !public/static/
-!public/static/*/
-!public/static/*/images/*
+
+# ignore everything in the static except the images directory
+public/static/*
+!public/static/images/
+
 
 # Mac files
 .DS_Store
