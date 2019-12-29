@@ -56,7 +56,6 @@ typings/
 
 # gatsby files
 .cache/
-public/
 
 # ignore everything in public except the static directory
 public/*
