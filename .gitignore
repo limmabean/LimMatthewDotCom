@@ -59,7 +59,7 @@ typings/
 public/
 !public/static/
 !public/static/*/
-!public/static/*/images/
+!public/static/*/images/*
 
 # Mac files
 .DS_Store
