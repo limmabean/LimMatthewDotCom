@@ -7,12 +7,11 @@
 
 import React from "react"
 import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
 
 import { createMuiTheme, MuiThemeProvider } from '@material-ui/core/styles';
 import { makeStyles } from '@material-ui/core/styles';
-import { Typography, Container, Button, Grid } from '@material-ui/core/';
-import { ButtonGroup, CssBaseline } from '@material-ui/core/';
+import { Typography, Container } from '@material-ui/core/';
+import { CssBaseline } from '@material-ui/core/';
 
 import Header from "./header"
 import Footer from "./footer"
@@ -27,6 +26,8 @@ const useStyles = makeStyles(theme => ({
     maxWidth: 960,
     padding: `0px 1.0875rem 1.45rem`,
     paddingTop: 0,
+  },
+  pageTitle: {
   }
 }));
 
@@ -54,25 +55,18 @@ const theme = createMuiTheme({
 
 const Layout = ({ children, pageTitle }) => {
   const classes = useStyles();
-  const data = useStaticQuery(graphql`
-    query SiteTitleQuery {
-      site {
-        siteMetadata {
-          title
-        }
-      }
-    }
-  `)
 
   return (
     <MuiThemeProvider theme={theme}>
     <CssBaseline></CssBaseline>
       <Header/>
       <div className={classes.root}>
-        <Container maxWidth="lg">
-          <Typography variant="h3">{pageTitle}</Typography>
-        {children}
+        <Container maxWidth="lg"> 
+          <Typography variant="h3" className={classes.pageTitle}>
+            {pageTitle}
+          </Typography>
         </Container>
+        {children}
       </div>
       <footer>
         <Footer>

@@ -4,16 +4,7 @@ import resumeFile from '../pdfs/Matthew_Lim_CS_Resume.pdf';
 import './resumePDF.css'
 
 export default class ResumePDF extends Component {
-  state = {
-    numPages: null,
-  }
-
-  onDocumentLoadSuccess = ({ numPages }) => {
-    this.setState({ numPages });
-  }
-
   render() {
-    const { numPages } = this.state;
     return (
       <Document
         file={resumeFile}
@@ -26,7 +17,7 @@ export default class ResumePDF extends Component {
           key={`page_1`}
           pageNumber={1}
           error="Failed to load Resume PDF."
-          scale="1.5"
+          scale={1.5}
         />
       </Document>
     );

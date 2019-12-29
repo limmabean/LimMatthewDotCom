@@ -20,7 +20,7 @@ const useStyles = makeStyles(theme => ({
   },
   iconListItem: {
     color: "blue",
-    fontSize: 16,
+    fontSize: 14,
     float: 'right',
     padding: 10,
   },

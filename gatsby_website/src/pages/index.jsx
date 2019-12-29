@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import Image from "../components/image"
@@ -7,7 +6,7 @@ import SideBar from "../components/sidebar"
 import Typography from '@material-ui/core/Typography';
 import SEO from "../components/seo"
 import Box from '@material-ui/core/Box';
-import { Container, Button, Grid } from '@material-ui/core/';
+import { Container, Grid } from '@material-ui/core/';
 import { makeStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles(theme => ({
@@ -33,7 +32,6 @@ const IndexPage = () => {
         <Grid item xs={11}>
           <Container maxWidth="sm" className = {classes.main}>
             <main>
-              <Typography variant="h3">Hello!</Typography>
               <Typography variant="h5">My name is Matthew Lim.</Typography>
               <Typography variant="body1">I am a Computer Engineering student at Georgia Tech.</Typography>
               <Box id="computing">

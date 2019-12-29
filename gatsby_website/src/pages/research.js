@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import Image from "../components/image"
@@ -7,7 +6,7 @@ import Typography from '@material-ui/core/Typography';
 import SEO from "../components/seo"
 
 const researchPage = () => (
-  <Layout>
+  <Layout pageTitle="Research">
     <SEO title="Research" />
     <Typography variant="h6">Hello!</Typography>
     <p>Now go build so;dslkafj;lkdfjmething great.</p>
