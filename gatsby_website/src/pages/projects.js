@@ -67,7 +67,7 @@ export default function ProjectPage() {
               description="Made as a present for my mom, this bench is one of my
                            ventures into making furniture and woodworking. This 
                            project took about a week to make and stain."
-              image="/static/images/projects/delta_chives.jpg"
+              image="/static/images/projects/open_ideo.jpg"
               imageTitle="Front Porch Bench"
             >
             </ProjectPost>
