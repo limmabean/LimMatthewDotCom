@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a73fc425-4552-40ab-afda-affcab367f09" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/gatsby_website/src/pages/experience.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby_website/public/page-data/dev-404-page/page-data.json" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby_website/public/page-data/dev-404-page/page-data.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gatsby_website/src/components/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby_website/src/components/header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatsby_website/src/components/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby_website/src/components/layout.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gatsby_website/src/pages/aboutme.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby_website/src/pages/aboutme.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatsby_website/src/pages/resume.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby_website/src/pages/resume.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby_website/src/pages/projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby_website/src/pages/projects.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby_website/src/pages/research.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby_website/src/pages/organizations.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,6 +94,8 @@
       <workItem from="1576941176596" duration="691000" />
       <workItem from="1576942162580" duration="14361000" />
       <workItem from="1577044796174" duration="8314000" />
+      <workItem from="1577904575894" duration="3002000" />
+      <workItem from="1578083718975" duration="1524000" />
     </task>
     <servers />
   </component>
@@ -103,6 +107,10 @@
       <screen x="0" y="0" width="1537" height="900" />
     </state>
     <state x="225" y="107" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1537.900@0.0.1537.900" timestamp="1576942816747" />
+    <state x="450" y="179" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1578086413341">
+      <screen x="0" y="0" width="1537" height="900" />
+    </state>
+    <state x="450" y="179" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1537.900@0.0.1537.900" timestamp="1578086413341" />
     <state x="516" y="208" key="#com.intellij.tools.ToolEditorDialog" timestamp="1576942780378">
       <screen x="0" y="0" width="1537" height="900" />
     </state>

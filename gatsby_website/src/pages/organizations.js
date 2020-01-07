@@ -5,7 +5,7 @@ import Image from "../components/image"
 import Typography from '@material-ui/core/Typography';
 import SEO from "../components/seo"
 
-const researchPage = () => (
+const organizationPage = () => (
   <Layout pageTitle="Research">
     <SEO title="Research" />
     <Typography variant="h6">Hello!</Typography>
@@ -16,4 +16,4 @@ const researchPage = () => (
   </Layout>
 )
 
-export default researchPage
+export default organizationPage

@@ -26,6 +26,7 @@ const useStyles = makeStyles(theme => ({
   beanIcon: {
     width: 40,
     height: "auto",
+    paddingTop:12,
   }
 }));
 
@@ -60,23 +61,23 @@ export default function Header() {
                 </Link>
               </Button>
               <Button>
+                <Link to="/experience/" className={classes.link}>
+                  <Typography variant="body1" className={classes.linksListItem}>
+                    Experience
+                  </Typography>
+                </Link>
+              </Button>
+              <Button>
                 <Link to="/projects/" className={classes.link}>
                   <Typography variant="body1" className={classes.linksListItem}>
-                      Projects
+                    Projects
                   </Typography>
                 </Link>
               </Button>
               <Button>
-                <Link to="/research/" className={classes.link}>
+                <Link to="/organizations/" className={classes.link}>
                   <Typography variant="body1" className={classes.linksListItem}>
-                      Research
-                  </Typography>
-                </Link>
-              </Button>
-              <Button>
-                <Link to="/fun/" className={classes.link}>
-                  <Typography variant="body1" className={classes.linksListItem}>
-                      Fun
+                      Organizations
                   </Typography>
                 </Link>
               </Button>

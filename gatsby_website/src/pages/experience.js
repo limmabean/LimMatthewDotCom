@@ -10,7 +10,7 @@ import ProjectPost from "../components/projectPost";
 const useStyles = makeStyles(theme => ({
 }));
 
-export default function ProjectPage() {
+export default function ExperiencePage() {
   const classes = useStyles();
   const [expanded, setExpanded] = React.useState(false);
 
@@ -19,29 +19,29 @@ export default function ProjectPage() {
   };
 
   return (
-    <Layout pageTitle="Projects">
-      <SEO title="Projects" />
+    <Layout pageTitle="Experience">
+      <SEO title="Experience" />
       <Container maxWidth="lg" className="mainPageContent">
         <Grid container spacing={3}>
           <Grid item sm={12} md={6} lg={3}>
-            <ProjectPost 
+            <ProjectPost
               title="Front Porch Bench"
               subHeader="Personal Project in Summer 2019"
               description="Made as a present for my mom, this bench is one of my
-                           ventures into making furniture and woodworking. This 
+                           ventures into making furniture and woodworking. This
                            project took about a week to make and stain."
               image="/static/images/projects/front_porch_bench.jpg"
               imageTitle="Front Porch Bench"
             >
-            sooooo lame
+              sooooo lame
             </ProjectPost>
           </Grid>
           <Grid item sm={12} md={6} lg={3}>
-            <ProjectPost 
+            <ProjectPost
               title="Autonomous Vertical Garden"
               subHeader="Summer 2019"
               description="Made as a present for my mom, this bench is one of my
-                           ventures into making furniture and woodworking. This 
+                           ventures into making furniture and woodworking. This
                            project took about a week to make and stain."
               image="/static/images/projects/autonomous_vertical_garden.jpg"
               imageTitle="Front Porch Bench"
@@ -49,11 +49,11 @@ export default function ProjectPage() {
             </ProjectPost>
           </Grid>
           <Grid item sm={12} md={6} lg={3}>
-            <ProjectPost 
+            <ProjectPost
               title="Delta Chi Botanical Garden"
               subHeader="Summer 2019"
               description="Made as a present for my mom, this bench is one of my
-                           ventures into making furniture and woodworking. This 
+                           ventures into making furniture and woodworking. This
                            project took about a week to make and stain."
               image="/static/images/projects/delta_chives.jpg"
               imageTitle="Front Porch Bench"
@@ -61,11 +61,11 @@ export default function ProjectPage() {
             </ProjectPost>
           </Grid>
           <Grid item sm={12} md={6} lg={3}>
-            <ProjectPost 
+            <ProjectPost
               title="Open Ideo"
               subHeader="Fall 2019"
               description="Made as a present for my mom, this bench is one of my
-                           ventures into making furniture and woodworking. This 
+                           ventures into making furniture and woodworking. This
                            project took about a week to make and stain."
               image="/static/images/projects/open_ideo.jpg"
               imageTitle="Front Porch Bench"

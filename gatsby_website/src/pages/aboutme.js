@@ -33,7 +33,10 @@ export default function AboutMePage() {
           <a href="https://id.gatech.edu/people/wayne-li">Professor Wayne Li</a> 
           {" "}of the Georgia Tech College of Design. This is where I draw my 
           foundational beliefs about creating technology. <i>I think that engineers should 
-          strive to use empathy and design thinking principles in everything they create.</i> 
+          strive to use empathy and design thinking principles in everything they create. </i>
+          I also currently conduct research in the{" "}
+          <a href="http://friendlycities.gatech.edu/">Friendly Cities Lab</a>
+          {" "}at Georgia Tech under Dr. Clio Andris.
 
         </Typography>
         <Typography variant="h4" paragraph={true}>
