@@ -2,13 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a73fc425-4552-40ab-afda-affcab367f09" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/gatsby_website/src/pages/experience.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gatsby_website/src/components/organizationCard.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatsby_website/public/page-data/dev-404-page/page-data.json" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby_website/public/page-data/dev-404-page/page-data.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatsby_website/src/components/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby_website/src/components/header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby_website/public/static/images/projects/open_ideo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby_website/src/components/footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby_website/src/components/footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby_website/src/components/image.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby_website/src/components/image.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby_website/src/components/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby_website/src/components/layout.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gatsby_website/src/pages/aboutme.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby_website/src/pages/aboutme.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatsby_website/src/pages/projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby_website/src/pages/projects.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatsby_website/src/pages/research.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby_website/src/pages/organizations.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby_website/src/pages/experience.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby_website/src/pages/experience.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby_website/src/pages/organizations.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby_website/src/pages/organizations.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby_website/src/pages/resume.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby_website/src/pages/resume.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby_website/src/styles/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby_website/src/styles/global.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,6 +100,10 @@
       <workItem from="1577044796174" duration="8314000" />
       <workItem from="1577904575894" duration="3002000" />
       <workItem from="1578083718975" duration="1524000" />
+      <workItem from="1578885428218" duration="3091000" />
+      <workItem from="1578958977817" duration="760000" />
+      <workItem from="1578965230763" duration="9917000" />
+      <workItem from="1579039409097" duration="2219000" />
     </task>
     <servers />
   </component>
@@ -107,10 +115,10 @@
       <screen x="0" y="0" width="1537" height="900" />
     </state>
     <state x="225" y="107" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1537.900@0.0.1537.900" timestamp="1576942816747" />
-    <state x="450" y="179" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1578086413341">
+    <state x="450" y="179" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1578972071938">
       <screen x="0" y="0" width="1537" height="900" />
     </state>
-    <state x="450" y="179" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1537.900@0.0.1537.900" timestamp="1578086413341" />
+    <state x="450" y="179" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1537.900@0.0.1537.900" timestamp="1578972071938" />
     <state x="516" y="208" key="#com.intellij.tools.ToolEditorDialog" timestamp="1576942780378">
       <screen x="0" y="0" width="1537" height="900" />
     </state>
@@ -143,6 +151,14 @@
       <screen x="0" y="0" width="1537" height="900" />
     </state>
     <state x="639" y="187" key="com.intellij.tools.ToolSelectDialog.dimensionServiceKey/0.0.1537.900@0.0.1537.900" timestamp="1576942781902" />
+    <state x="42" y="209" key="run.anything.popup" timestamp="1578966288837">
+      <screen x="0" y="0" width="1537" height="900" />
+    </state>
+    <state x="42" y="209" key="run.anything.popup/0.0.1537.900@0.0.1537.900" timestamp="1578966288837" />
+    <state x="432" y="191" width="672" height="678" key="search.everywhere.popup" timestamp="1578886119783">
+      <screen x="0" y="0" width="1537" height="900" />
+    </state>
+    <state x="432" y="191" width="672" height="678" key="search.everywhere.popup/0.0.1537.900@0.0.1537.900" timestamp="1578886119783" />
   </component>
   <component name="masterDetails">
     <states>

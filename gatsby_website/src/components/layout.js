@@ -62,7 +62,7 @@ const Layout = ({ children, pageTitle }) => {
       <Header/>
       <div className={classes.root}>
         <Container maxWidth="lg"> 
-          <Typography variant="h3" className={classes.pageTitle}>
+          <Typography variant="h1" className={classes.pageTitle}>
             {pageTitle}
           </Typography>
         </Container>

@@ -73,7 +73,7 @@ export default function Footer() {
       </div>
       <div className={classes.copyright}>
         <Typography variant="body2">
-          © {new Date().getFullYear()}, Built by Matthew Lim
+          © {new Date().getFullYear()} Built by Matthew Lim
         </Typography>
       </div>
     </div>

@@ -22,52 +22,52 @@ export default function ExperiencePage() {
     <Layout pageTitle="Experience">
       <SEO title="Experience" />
       <Container maxWidth="lg" className="mainPageContent">
-        <Grid container spacing={3}>
-          <Grid item sm={12} md={6} lg={3}>
+        <Grid container spacing={2}>
+          <Grid item md={12} lg={6}>
             <ProjectPost
-              title="Front Porch Bench"
-              subHeader="Personal Project in Summer 2019"
+              title="Siemens Inc"
+              subHeader="Software Engineering Intern in Summer 2019"
               description="Made as a present for my mom, this bench is one of my
                            ventures into making furniture and woodworking. This
                            project took about a week to make and stain."
-              image="/static/images/projects/front_porch_bench.jpg"
-              imageTitle="Front Porch Bench"
+              image="/static/images/experience/siemens.jpg"
+              imageTitle="Siemens IoT"
             >
               sooooo lame
             </ProjectPost>
           </Grid>
-          <Grid item sm={12} md={6} lg={3}>
+          <Grid item md={12} lg={6}>
             <ProjectPost
-              title="Autonomous Vertical Garden"
-              subHeader="Summer 2019"
+              title="Autodesk Inc."
+              subHeader="Software Development Intern Summer 2019"
               description="Made as a present for my mom, this bench is one of my
                            ventures into making furniture and woodworking. This
                            project took about a week to make and stain."
-              image="/static/images/projects/autonomous_vertical_garden.jpg"
+              image="/static/images/experience/autodesk.jpg"
+              imageTitle="Autodesk SF Office"
+            >
+            </ProjectPost>
+          </Grid>
+          <Grid item md={12} lg={6}>
+            <ProjectPost
+              title="Georgia Tech Research Institute"
+              subHeader="Research Intern Summer 2019"
+              description="Made as a present for my mom, this bench is one of my
+                           ventures into making furniture and woodworking. This
+                           project took about a week to make and stain."
+              image="/static/images/experience/gtri.jpg"
               imageTitle="Front Porch Bench"
             >
             </ProjectPost>
           </Grid>
-          <Grid item sm={12} md={6} lg={3}>
+          <Grid item md={12} lg={6}>
             <ProjectPost
-              title="Delta Chi Botanical Garden"
-              subHeader="Summer 2019"
+              title="Purdue University College of Engineering"
+              subHeader="Freelance Animator"
               description="Made as a present for my mom, this bench is one of my
                            ventures into making furniture and woodworking. This
                            project took about a week to make and stain."
-              image="/static/images/projects/delta_chives.jpg"
-              imageTitle="Front Porch Bench"
-            >
-            </ProjectPost>
-          </Grid>
-          <Grid item sm={12} md={6} lg={3}>
-            <ProjectPost
-              title="Open Ideo"
-              subHeader="Fall 2019"
-              description="Made as a present for my mom, this bench is one of my
-                           ventures into making furniture and woodworking. This
-                           project took about a week to make and stain."
-              image="/static/images/projects/open_ideo.jpg"
+              image="/static/images/experience/purdueCoE.jpg"
               imageTitle="Front Porch Bench"
             >
             </ProjectPost>

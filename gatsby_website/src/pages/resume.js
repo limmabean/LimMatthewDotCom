@@ -4,14 +4,12 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import ResumePDF from "../components/resumePDF"
 import { Container, Typography, makeStyles } from '@material-ui/core/';
-import DownloadLink from "react-download-link";
 
 const useStyles = makeStyles(theme => ({
   centeredText: {
     textAlign: 'center',
   },
 }));
-
 
 export default function ResumePage() {
   const classes = useStyles();
@@ -21,17 +19,9 @@ export default function ResumePage() {
       <div className={classes.centeredText}>
         <Container maxWidth="lg">
           <Typography variant="h2">Check out my resume!</Typography>
-          <p> Or click {' '}
-            {// TODO: depreciated funcationality find other download method
-            }
-            <DownloadLink label="here"
-              filename="../pdfs/Matthew_Lim_CS_Resume.pdf"
-              exportFile={() => "My cached data"}
-              tagName=""
-            >
-              Save to disk
-            </DownloadLink>
-            to download a copy:
+          <p> Or click {" "}
+            <a href="https://drive.google.com/uc?export=download&id=1-k1_YENUQch8gFk53vQUOCDGjbchvlAP">here</a>
+            {" "} to download a copy:
           </p>
         </Container>
       </div>
