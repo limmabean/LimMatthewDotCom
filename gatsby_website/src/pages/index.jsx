@@ -34,17 +34,17 @@ const IndexPage = () => {
             <main>
               <Typography variant="h5">My name is Matthew Lim.</Typography>
               <Typography variant="body1">I am a Computer Engineering student at Georgia Tech.</Typography>
+              <Typography variant="h3">This website is <b>still under construction.</b></Typography>
+              <Typography variant="h5">
+              Feel free to look around but know some portions of the website are incomplete.
+              </Typography>
               <Box id="computing">
-                <Image/>
               </Box>
               <Box id="sustainability">
-                <Image/>
               </Box>
               <Box id="design">
-                <Image/>
               </Box>
               <Box id="makerspaces">
-                <Image/>
               </Box>
             </main>
           </Container>

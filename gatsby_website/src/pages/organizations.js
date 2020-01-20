@@ -71,9 +71,26 @@ const organizationPage = () => {
           </Grid>
           <Grid item md={12} lg={6}>
             <OrganizationCard
+              title="Friendly Cities Lab at Georgia Tech"
+              subHeader="Social Impact powered by Design Thinking"
+              imageFile="/static/images/organizations/friendlycities.jpg"
+              imageTitle="An OpenIDEO meeting"
+              description="OpenIDEO is a global community working together to
+              design solutions for the world's biggest challenges. As a
+              organization run by members of Design Bloc, this organization is
+              an offshoot the the central OpenIDEO based on using design
+              thinking principles used by IDEO. We've had visiting speakers from
+              IDEO and events hosted by former IDEO employees."
+              link="http://friendlycities.gatech.edu/"
+            />
+          </Grid>
+          <Grid item md={12} lg={6}>
+            <OrganizationCard
               title="University Innovation Fellows"
               subHeader='"We believe students can change the world."'
               imageFile="/static/images/organizations/uif.jpg"
+              imageTitle="University Innovation Fellows practicing design
+              thinking."
               description="The University Innovation Fellows program empowers
               students to become agents of change at their schools. The Fellows
               are a global community leading a movement to ensure that all
@@ -92,16 +109,41 @@ const organizationPage = () => {
               link="https://universityinnovationfellows.org/"
             />
           </Grid>
-
+          <Grid item md={12} lg={6}>
+            <OrganizationCard
+              title="Sustainable Undergraduate Research Fellows (SURF)"
+              subHeader='"We believe students can change the world."'
+              imageFile="/static/images/organizations/surf.jpg"
+              imageTitle="Running a Design Thinking Workshop."
+              description="During the 2017/2018 school year, eight Sustainable
+              Undergraduate Research Fellows (SURFers) began the development of
+              an interactive dashboard for the Kendeda Building for Innovative
+              Sustainable Design. The project continues with a new cadre of
+              SURFers. Real-time data on Site, Water, Energy, Health, Materials,
+               Equity, and Beauty (the 7 petals of a Living Building) will be
+               formatted for display in an interactive monitoring system.
+               This prototype is envisioned to interface with the operations,
+               activities, and prevailing conditions with the Living Building as
+                a center of reference. From there, information can be shown as
+               users expand their reference frame outward through the scales of
+               the campus, the city, the region, and the globe."
+              link="https://sustainable.gatech.edu/surf"
+            />
+          </Grid>
           <Grid item md={12} lg={6}>
             <OrganizationCard
               title="Open Ideo Atlanta/Georgia Tech"
-              subHeader="Fall 2019"
-              description="As a organization run by members of Design Bloc"
-              image="/static/images/organizations/open_ideo.jpg"
+              subHeader="Social Impact powered by Design Thinking"
+              imageFile="/static/images/organizations/open_ideo.jpg"
               imageTitle="An OpenIDEO meeting"
-            >
-            </OrganizationCard>
+              description="OpenIDEO is a global community working together to
+              design solutions for the world's biggest challenges. As a
+              organization run by members of Design Bloc, this organization is
+              an offshoot the the central OpenIDEO based on using design
+              thinking principles used by IDEO. We've had visiting speakers from
+              IDEO and events hosted by former IDEO employees."
+              link="https://www.instagram.com/openideoatl/"
+            />
           </Grid>
         </Grid>
       </Container>
